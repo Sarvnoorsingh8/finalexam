@@ -1,0 +1,215 @@
+/*general style*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 40px;
+
+}
+h3{
+    font-family: 'Montserrat',sans-serif;
+    font-size:30px;
+
+}
+p,li,form,label{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    width:auto;
+
+}
+/*Logo style*/
+.logo{
+    display: flex;
+    justify-content: space-between;
+    background-color: #125784  ;
+height:auto;
+background-attachment:fixed ;
+width:auto;
+
+}
+.logo img{
+    height:140px;
+    width:auto;
+    padding:13px;
+}
+.logo form{
+    padding:30px;
+    margin: top 27px;
+    font-weight:bold;
+
+}
+/*nav's styling*/
+nav{
+    margin-top:50px;
+
+}
+nav>menu{
+    display:flex;
+    justify-content: space-between;
+
+}
+menu li{
+    list-style:none;
+    padding:8px;
+    color:white;
+
+}
+menu li a{
+    color:white;
+    text-decoration: none;
+
+}
+/*heading 1st*/
+.heading{
+    display:flex;
+    justify-content:center;
+    height:540px;
+    background-image: url(/img/img1.jpg);
+background-size: cover;
+background-attachment: fixed;
+
+}
+
+.head h1 {
+    margin-top: 220px;
+    color:white;
+    padding: 15px;
+
+}
+/*heading 2nd*/
+.titleclass{
+    display:flex;
+    height:250px;
+
+}
+.titleclass div{
+    flex-grow: 1;
+    background-color: #f57f17;
+    justify-content: center;
+}
+.titleclass h2,.titleclass p{
+    color:white;
+    padding:15px;
+
+
+}
+.titleclass img{
+    width:300px;
+    height:auto;
+
+}
+/*styling for images*/
+.imgery{
+display:flex;
+height: 250px;
+width: auto;
+}
+.imgery img{
+    width:420px;
+}
+.imgery div{
+    display: flex;
+    }
+    /*form styling */
+    .form{display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: space-evenly;
+    height: 300px;
+    background-color: #5e35b1 ;
+    align-items: center;
+    padding: 30px;
+    }
+.form input{
+    width:350px;
+    font-weight:bold;
+    color:black;
+
+}
+.form input:nth-child(6){
+height: 50px;
+
+}
+.form label{
+    color:label;
+
+}
+.button_radio{
+    display: flex;
+    width: 120px;
+    margin-bottom: 25px;
+    
+}
+    button{
+        width:360px;
+        color:black;
+        font-weight: bolder;
+
+    }
+    .button_radio{
+        display:flex;
+        width:120px;
+        margin-bottom:25px;
+
+    }
+    /*footer styling*/
+    footer{
+        display:flex;
+        background-color: black;
+        color:white;
+    }
+    footer img{
+        height:160px;
+        width:auto;
+        padding:15px;
+}
+footer h3,footer p{
+    padding:15px;
+
+}
+/*Responsive styling*/
+@media screen and(max-width:768px) {
+
+    
+
+
+.logo{
+    flex-direction: coloumn;
+    justify-content: center;
+    align-items: center;
+}
+.titleclass{
+    flex-direction: column;
+    height:900px;
+}
+.titleclass img{
+    width:auto;
+    height:700px;
+
+}
+.imgery{
+    flex-direction: column;
+    height: 600px;
+}
+.imgery img{
+    height: 300px;
+    width:auto;
+}
+.imgery div img{
+    width: 50%;
+}
+}
+h1{
+    color:white;
+    display: flex;
+    margin-top: 5em;
+}
+.search{
+    
+    margin-right: 3em;
+    margin-top: 1.4em;
+}
